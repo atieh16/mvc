@@ -3,9 +3,9 @@
  class Database{
 
    private $host = 'localhost';
-   private $userName = 'atieh';
-   private $password = '@13751375@';
-   private $dbName = 'mysite';
+   private $userName = '';
+   private $password = '';
+   private $dbName = '';
    private $databasType = 'mysql';
    public $connection;//$connection ra public kardim chon mikhahim dar class Model be on dastrasi dashte bashim
    private $stmt;
