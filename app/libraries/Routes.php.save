@@ -1,0 +1,9 @@
+<?php
+
+   Route::get("index/{id}" , "ali2@ali");
+
+   Route::get("index/{id}/{name}" , "pages@index");
+
+
+
+

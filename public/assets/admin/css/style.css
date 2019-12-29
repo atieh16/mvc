@@ -1,0 +1,143 @@
+body *{
+    direction: rtl;
+}
+.alert button.close
+{
+    left: 10px;
+    right: auto;
+}
+.alert span[data-notify="icon"]
+{
+    right: 15px;
+    left: auto;
+}
+.card .alert.alert-with-icon
+{
+    padding-right: 65px !important;
+    padding-left: 0 !important;
+
+}
+.card form [class*="col-"]:last-child
+{
+    padding-right: 6px !important;
+
+}
+.table>thead>tr>th
+{
+    text-align: right !important;
+}
+legend
+{
+    font-size: 11px;
+    color: #a19494;
+}
+a.numpost
+{
+    float: right;
+}
+form p
+{
+    margin-bottom: 0;
+    font-size: 14px;
+    
+}
+.footer .copyright{
+    float: none !important;
+}
+a i.nc-icon.nc-check-2,a i.nc-icon.nc-button-power,a i.nc-icon.nc-ruler-pencil 
+{
+    color: black;
+}
+.mydashboard
+{
+    text-align: center;
+}
+.mydashboard span
+{
+    font-size: 20px;
+}
+.navbar-nav div a,div .pull-left.col-md-5.text-left.add a ,div .col-md-5.text-left.addpage a {
+    border-color: #913fde ;
+    color: #913fde;
+}
+.navbar-nav div a:hover , div .pull-left.col-md-5.text-left.add a:hover,div .col-md-5.text-left.addpage a:hover{
+    border-color: #1eb8d8 ;
+    color: #1eb8d8;
+}
+div .card-header h4{
+    color: #9413a2 !important;
+}
+a.exit-btn{
+    color: #9413a2 !important;
+    border-color: #9413a2 !important;
+    margin:5px;
+}
+
+
+
+
+@import url("//cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css");
+.multiselect {
+    width: 100%;
+}
+
+.multiselect {
+    text-align: left;
+    padding-right: 32px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.multiselect .caret {
+    right: 12px;
+    top: 45%;
+    position: absolute;
+}
+
+.multiselect-container.dropdown-menu {
+    min-width: 0px;
+}
+
+.multiselect-container>li>a>label {
+    white-space: normal;
+    padding: 5px 15px 5px 35px;
+}
+
+.multiselect-container > li > a > label > input[type="checkbox"] {
+    margin-top: 3px;
+}
+
+/*TAGS*/
+.tagsinput,.tagsinput *{box-sizing:border-box}
+.tagsinput{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;background:#fff;font-family:sans-serif;font-size:14px;line-height:20px;color:#556270;padding:5px 5px 0;border:1px solid #e6e6e6;border-radius:2px}
+.tagsinput.focus{border-color:#ccc}
+.tagsinput .tag{position:relative;background:#556270;display:block;max-width:100%;word-wrap:break-word;color:#fff;padding:5px 30px 5px 5px;border-radius:2px;margin:0 5px 5px 0}
+.tagsinput .tag .tag-remove{position:absolute;background:0 0;display:block;width:30px;height:30px;top:0;right:0;cursor:pointer;text-decoration:none;text-align:center;color:#ff6b6b;line-height:30px;padding:0;border:0}
+.tagsinput .tag .tag-remove:after,.tagsinput .tag .tag-remove:before{background:#ff6b6b;position:absolute;display:block;width:10px;height:2px;top:14px;left:10px;content:''}
+.tagsinput .tag .tag-remove:before{-webkit-transform:rotateZ(45deg);transform:rotateZ(45deg)}
+.tagsinput .tag .tag-remove:after{-webkit-transform:rotateZ(-45deg);transform:rotateZ(-45deg)}
+.tagsinput div{-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1}
+.tagsinput div input{background:0 0;display:block;width:100%;font-size:14px;line-height:20px;padding:5px;border:0;margin:0 5px 5px 0}
+.tagsinput div input.error{color:#ff6b6b}
+.tagsinput div input::-ms-clear{display:none}
+.tagsinput div input::-webkit-input-placeholder{color:#ccc;opacity:1}
+.tagsinput div input:-moz-placeholder{color:#ccc;opacity:1}
+.tagsinput div input::-moz-placeholder{color:#ccc;opacity:1}
+.tagsinput div input:-ms-input-placeholder{color:#ccc;opacity:1}
+
+.twitter-typeahead { display:initial !important; }
+.bootstrap-tagsinput {line-height:40px;display:block !important;}
+.bootstrap-tagsinput .tag {background:#09F;padding:5px;border-radius:4px;}
+.tt-hint {top:2px !important;}
+.tt-input{vertical-align:baseline !important;}
+.typeahead { border: 1px solid #CCCCCC;border-radius: 4px;padding: 8px 12px;width: 300px;font-size:1.5em;}
+.tt-menu { width:300px; }
+span.twitter-typeahead .tt-suggestion {padding: 10px 20px;	border-bottom:#CCC 1px solid;cursor:pointer;}
+span.twitter-typeahead .tt-suggestion:last-child { border-bottom:0px; }
+.demo-label {font-size:1.5em;color: #686868;font-weight: 500;}
+.bgcolor {max-width: 440px;height: 200px;background-color: #c3e8cb;padding: 40px 70px;border-radius:4px;margin:20px 0px;}
+
+
+
+/*radio button
+
